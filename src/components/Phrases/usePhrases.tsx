@@ -36,7 +36,7 @@ const usePhrases = () => {
 			const { phrases } = state
 			const currentPhraseNum = findCurrentPhraseNum(phrases, currentTime)
 			setState(oldState => ({ ...oldState, currentPhraseNum }))
-			scrollPhrasesBlock(currentPhraseNum, -250)
+			// scrollPhrasesBlock(currentPhraseNum, -250)
 		}
 	}, [currentTime, state.phrases])
 

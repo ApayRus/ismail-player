@@ -12,6 +12,7 @@
 	margin: 5px;
 	/* border: 1px solid rgba(255, 255, 255, 1); */
 	border-radius: 10px;
+	direction: rtl;
 }
 
 .phraseBlock .text {
@@ -48,6 +49,8 @@
 .phraseBlock .textTr {
 	color: grey;
 	font-size: 14px;
+	direction: ltr;
+	text-align: right;
 }
 .phraseBlock.active {
 	position: relative;
